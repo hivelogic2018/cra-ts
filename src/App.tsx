@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 
 function App() {
-	const hello = 'hello world'
+	var hello: string = "hello world"
 	console.log(hello)
 	return (
 		<div className="App">
